@@ -1,0 +1,146 @@
+/* Global styles for black background theme */
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.text-dark {
+  color: #ffffff !important;
+}
+
+.text-muted {
+  color: #cccccc !important;
+}
+
+.text-secondary {
+  color: #bbbbbb !important;
+}
+
+
+.nav-tabs .nav-link {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border-color: #333333 #333333 #000000 !important;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #cccccc !important;
+  background-color: #333333 !important;
+  border-color: #555555 #555555 #000000 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+  border-color: #555555 #555555 #000000 !important;
+}
+
+
+.card {
+  background-color: #111111 !important;
+  border: 1px solid #333333 !important;
+  color: #ffffff !important;
+}
+
+.card-body {
+  color: #ffffff !important;
+}
+
+.card-title {
+  color: #ffffff !important;
+}
+
+.card-text {
+  color: #ffffff !important;
+}
+
+
+.container, .container-fluid {
+  background-color: #000000;
+}
+
+
+* {
+  color: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+p, span, div {
+  color: #ffffff !important;
+}
+
+
+/* Link styling */
+a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccccc !important;
+}
+
+/* Button styling */
+.btn {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+  border-color: #555555 !important;
+}
+
+.btn:hover {
+  background-color: #555555 !important;
+  border-color: #777777 !important;
+}
+
+/* Sticky navbar */
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #000000 !important;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav.scrolled {
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #000000 !important;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+
+.nav-tabs {
+  background-color: #000000;
+}
+
+.container-fluid .nav-tabs {
+  background-color: #000000;
+}
